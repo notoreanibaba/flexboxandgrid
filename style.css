@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    width:50%
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh
+}
+.cartype {
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+}
+.work {
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+.first-content{
+    background-color: hsl(31, 77%, 52%);
+    height: 25rem;
+    text-align: left;
+    padding: 3rem;
+}
+.second-content{
+    background-color: darkcyan;
+    height: 25rem;
+    text-align: left;
+    padding:3rem;
+}
+.third-content{
+    background-color: hsl(179, 100%, 13%);
+    height: 25rem;
+    text-align: left;
+    padding: 3rem;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+.btns {
+    color: hsl(31, 77%, 52%);
+}
+
+.btns:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btnv{
+    color: hsl(184, 100%, 22%);
+}
+
+.btnv:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btnl{
+    color: hsl(179, 100%, 13%);
+}
+
+.btnl:hover{
+    background-color: hsl(179, 100%, 13%);;
+}
+
+
+body {
+    text-align: center;
+}
+
+.grid-cont {
+    display: inline-grid;
+    gap: 10px;
+    padding: 10px;
+    background-color: crimson;
+    width: 60%;
+    height: 25rem;
+    margin-top: 5rem;
+    background-color: black;
+}
+
+.cont-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.one {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    background-color: orangered;
+}
+
+.two {
+    grid-column: 5 / 7;
+    grid-row: 1 / 4;
+    background-color: rgb(255, 215, 0);
+}
+
+.three {
+    grid-column: 1 / span 3;
+    grid-row: 4 / 6;
+    background-color: forestgreen;
+}
+
+.four {
+    grid-column: 4 / 7;
+    grid-row: 4;
+    background-color: cyan;
+}
+
+.five {
+    grid-column: 4 / 7;
+    grid-row: 5;
+    background-color: cyan;
+}
